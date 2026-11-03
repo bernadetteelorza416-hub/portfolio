@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
@@ -39,3 +40,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 # portfolio
 personal website portfolio
 >>>>>>> 6be82f851492ad94cf0c8ed54a963a31580a4b74
+=======
+# portfolio
+Bernadette Elorza Personal Portfolio
+>>>>>>> 6efb9cfb13b4ee990a5dc7909e66bde9347aa4b8
