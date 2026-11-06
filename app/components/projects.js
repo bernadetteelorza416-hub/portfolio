@@ -12,9 +12,7 @@ export default function Projects() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-20 items-end mb-20">
 
           <div>
-            <p className="text-xs font-bold tracking-[0.35em] uppercase text-[#702F3D] dark:text-[#D6A0A8] mb-6">
-              04 / The things I've created
-            </p>
+           
 
             <h2 className="text-5xl md:text-7xl font-bold leading-[0.95] tracking-tight">
               Ideas into
@@ -69,10 +67,7 @@ export default function Projects() {
 
                   </div>
 
-                  <div className="flex justify-between items-center pt-4 text-[10px] md:text-xs tracking-[0.2em] uppercase text-[#916F63] dark:text-[#D6B9AE]">
-                    <span>Portfolio Collection</span>
-                    <span>{String(index + 1).padStart(2, "0")} / {String(portfolioData.projects.length).padStart(2, "0")}</span>
-                  </div>
+                
 
                 </div>
               </div>
@@ -84,9 +79,7 @@ export default function Projects() {
                 }`}
               >
 
-                <p className="text-xs font-bold tracking-[0.3em] uppercase text-[#702F3D] dark:text-[#D6A0A8] mb-5">
-                  Featured Work — {String(index + 1).padStart(2, "0")}
-                </p>
+              
 
                 <h3 className="text-3xl md:text-4xl font-bold leading-tight mb-6 group-hover:text-[#702F3D] dark:group-hover:text-[#D6A0A8] transition-colors duration-300">
                   {project.title}
@@ -151,15 +144,7 @@ export default function Projects() {
         </div>
 
         {/* Closing Message */}
-        <div className="mt-28 pt-8 border-t border-[#D6B9AE] dark:border-[#493431] flex flex-col md:flex-row justify-between gap-4">
-          <p className="text-xs tracking-[0.2em] uppercase text-[#916F63] dark:text-[#D6B9AE]">
-            A little progress, one project at a time.
-          </p>
-
-          <p className="text-xs tracking-[0.2em] uppercase text-[#916F63] dark:text-[#D6B9AE]">
-            More to come ✧
-          </p>
-        </div>
+        
 
       </div>
 

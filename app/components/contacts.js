@@ -16,10 +16,8 @@ export default function Contact() {
           <div className="flex flex-col justify-between">
             <div>
               <div className="flex items-center gap-3 mb-10">
-                <span className="w-10 h-[1px] bg-[#D6B9AE]"></span>
-                <p className="text-sm uppercase tracking-[0.3em] text-[#D6B9AE]">
-                  Get in touch
-                </p>
+              
+                
               </div>
 
               <h2 className="text-6xl md:text-8xl font-bold leading-[0.95] tracking-tight">
@@ -130,15 +128,7 @@ export default function Contact() {
 
         {/* Footer */}
         <div className="mt-28 pt-8 border-t border-[#70534B] flex flex-col md:flex-row justify-between items-center gap-5">
-          <div>
-            <p className="text-lg font-bold tracking-wider">
-              {portfolioData.name}
-              <span className="text-[#D6B9AE]">.</span>
-            </p>
-            <p className="text-xs text-[#BFA69A] mt-2">
-              © 2026 All rights reserved.
-            </p>
-          </div>
+          
 
           <a
             href="#home"

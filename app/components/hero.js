@@ -35,26 +35,15 @@ export default function Hero() {
               </div>
 
               {/* Image Number */}
-              <div className="absolute -top-10 -right-5 md:-right-10 bg-[#702F3D] text-[#FFF9F3] w-20 h-20 flex items-center justify-center rounded-full">
-                <span className="font-serif italic text-2xl">01</span>
-              </div>
+             
 
               {/* Vertical Label */}
               <div className="absolute -right-10 md:-right-16 top-1/2 -translate-y-1/2 hidden sm:block">
-                <p className="text-[10px] uppercase tracking-[0.35em] text-[#702F3D] dark:text-[#D6B9AE] [writing-mode:vertical-rl]">
-                  Creative Mind · UI/UX Designer
-                </p>
+                
               </div>
 
               {/* Image Caption */}
-              <div className="absolute -bottom-6 -left-3 md:-left-8 bg-[#FFF9F3] dark:bg-[#3B2926] px-6 py-4 shadow-xl">
-                <p className="text-xs uppercase tracking-[0.2em] text-[#A17C68] dark:text-[#D6B9AE]">
-                  Based in
-                </p>
-                <p className="font-semibold text-sm mt-1 text-[#3B2523] dark:text-[#FFF9F3]">
-                  {portfolioData.location}
-                </p>
-              </div>
+             
 
             </div>
           </div>
@@ -63,7 +52,7 @@ export default function Hero() {
           <div className="lg:col-span-7 lg:pl-10">
 
             <div className="flex items-center gap-4 mb-8">
-              <span className="w-12 h-[2px] bg-[#702F3D]"></span>
+             
               
             </div>
 
@@ -109,7 +98,7 @@ export default function Hero() {
               </a>
 
               <a
-                href="/CVB.pdf"
+                href="/BE CV.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-3 border border-[#B58B70] dark:border-[#755F57] px-7 py-4 font-medium text-[#702F3D] dark:text-[#FFF9F3] hover:bg-[#EAD9D0] dark:hover:bg-[#493431] transition-all duration-300"
@@ -121,46 +110,13 @@ export default function Hero() {
             </div>
 
             {/* Decorative Quote */}
-            <div className="mt-12 pt-6 border-t border-[#D6B9AE] dark:border-[#493431] max-w-lg">
-              <p className="font-serif italic text-[#916F63] dark:text-[#D6B9AE] text-lg">
-                "Creativity is where ideas meet technology."
-              </p>
-            </div>
+           
 
           </div>
         </div>
 
-        {/* Bottom Information Strip */}
-        <div className="mt-24 pt-7 border-t border-[#D6B9AE] dark:border-[#493431] grid grid-cols-1 sm:grid-cols-3 gap-6">
 
-          <div>
-            <p className="text-[10px] uppercase tracking-[0.25em] text-[#A17C68] dark:text-[#D6B9AE]">
-              01 / Focus
-            </p>
-            <p className="mt-2 font-semibold">
-              Designing Experiences
-            </p>
-          </div>
-
-          <div>
-            <p className="text-[10px] uppercase tracking-[0.25em] text-[#A17C68] dark:text-[#D6B9AE]">
-              02 / Interest
-            </p>
-            <p className="mt-2 font-semibold">
-              Technology & Design
-            </p>
-          </div>
-
-          <div>
-            <p className="text-[10px] uppercase tracking-[0.25em] text-[#A17C68] dark:text-[#D6B9AE]">
-              03 / Mindset
-            </p>
-            <p className="mt-2 font-semibold">
-              Always Learning
-            </p>
-          </div>
-
-        </div>
+        
 
       </div>
     </section>

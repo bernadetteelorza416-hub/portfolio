@@ -47,13 +47,8 @@ export default function Header() {
             href="#home"
             className="flex flex-col leading-none"
           >
-            <span className="text-2xl font-bold tracking-[0.12em] text-[#3B2523] dark:text-[#FFF9F3]">
-              BERNADETTE<span className="text-[#702F3D]">.</span>
-            </span>
+          
 
-            <span className="text-[10px] tracking-[0.3em] uppercase text-[#A17C68] dark:text-[#D6B9AE] mt-2">
-              Personal Portfolio
-            </span>
           </a>
 
           {/* Navigation */}

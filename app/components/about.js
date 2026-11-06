@@ -12,29 +12,16 @@ export default function About() {
         {/* Top Label */}
         <div className="flex justify-between items-center mb-16">
           <div className="flex items-center gap-4">
-            <span className="text-sm font-serif italic text-[#702F3D] dark:text-[#D6B9AE]">
-              02
-            </span>
-            <span className="w-12 h-[1px] bg-[#B58B70]"></span>
-            <p className="text-xs uppercase tracking-[0.3em] text-[#916F63] dark:text-[#D6B9AE]">
-              A little introduction
-            </p>
+            
+            
+           
           </div>
 
-          <span className="hidden sm:block text-xs tracking-[0.2em] text-[#B58B70]">
-            ABOUT / 2026
-          </span>
+        
         </div>
 
         {/* Large Heading */}
-        <div className="mb-20">
-          <h2 className="text-6xl sm:text-7xl md:text-9xl font-bold tracking-[-0.06em] leading-[0.9]">
-            More than
-            <span className="block text-[#702F3D] dark:text-[#D6B9AE] font-serif italic font-normal ml-8 md:ml-32 mt-3">
-              just a name.
-            </span>
-          </h2>
-        </div>
+       
 
         {/* Main Content */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16">
@@ -43,9 +30,7 @@ export default function About() {
           <div className="lg:col-span-4 flex flex-col justify-between">
 
             <div>
-              <p className="text-xs uppercase tracking-[0.25em] text-[#A17C68] dark:text-[#D6B9AE] mb-6">
-                Who I am
-              </p>
+            
 
               <h3 className="text-3xl md:text-4xl font-semibold leading-tight">
                 A curious mind with a passion for
@@ -104,20 +89,7 @@ export default function About() {
                 </div>
 
                 {/* Field */}
-                <div>
-                  <p className="text-xs uppercase tracking-[0.2em] text-[#A17C68] dark:text-[#D6B9AE] mb-3">
-                    Field of Interest
-                  </p>
-
-                  <div className="flex items-center gap-3">
-                    <span className="text-2xl text-[#702F3D] dark:text-[#D6B9AE]">
-                      ✳
-                    </span>
-                    <p className="font-semibold text-[#3B2523] dark:text-[#FFF9F3]">
-                      Web Development & Technology
-                    </p>
-                  </div>
-                </div>
+              
 
               </div>
             </div>

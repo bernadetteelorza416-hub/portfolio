@@ -74,9 +74,7 @@ export default function Skills() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 mb-24">
 
           <div className="lg:col-span-7">
-            <p className="text-xs uppercase tracking-[0.35em] text-[#D6B9AE] mb-8">
-              03 / My Capabilities
-            </p>
+           
 
             <h2 className="text-6xl md:text-8xl font-bold tracking-[-0.05em] leading-[0.95]">
               Things I
@@ -91,12 +89,7 @@ export default function Skills() {
              A collection of design tools, creative technologies, and UI/UX skills I have explored and developed throughout my journey in creating intuitive, engaging, and user-friendly digital experiences.
             </p>
 
-            <div className="flex items-center gap-4 mt-8">
-              <span className="w-12 h-[2px] bg-[#B58B70]"></span>
-              <span className="text-xs uppercase tracking-[0.2em] text-[#D6B9AE]">
-                Learning through practice
-              </span>
-            </div>
+         
           </div>
         </div>
 
@@ -110,17 +103,11 @@ export default function Skills() {
             >
 
               {/* Category Number */}
-              <div className="md:col-span-1">
-                <span className="font-serif italic text-2xl text-[#B58B70]">
-                  {String(index + 1).padStart(2, "0")}
-                </span>
-              </div>
+             
 
               {/* Category Name */}
               <div className="md:col-span-4">
-                <p className="text-[10px] uppercase tracking-[0.25em] text-[#B58B70] mb-3">
-                  Skill Category
-                </p>
+                
 
                 <h3 className="text-2xl md:text-3xl font-semibold group-hover:text-[#D6B9AE] transition-colors">
                   {skill.category}
@@ -150,9 +137,7 @@ export default function Skills() {
 
                 </div>
 
-                <p className="text-xs text-[#BFA69A] mt-5">
-                  {skill.items.length} skills and technologies
-                </p>
+               
               </div>
 
             </div>
@@ -167,9 +152,7 @@ export default function Skills() {
             Always curious. Always improving.
           </p>
 
-          <span className="text-xs uppercase tracking-[0.25em] text-[#B58B70]">
-            Skills & Technologies ↗
-          </span>
+         
 
         </div>
 
